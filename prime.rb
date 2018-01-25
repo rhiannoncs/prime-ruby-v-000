@@ -1,4 +1,4 @@
-def prime?(integer)
+def prime?(integer) #algorithm adapted from https://math.stackexchange.com/questions/5277/determine-whether-a-number-is-prime
   x = 2
   if integer <= 1
     return false
