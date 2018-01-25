@@ -9,4 +9,5 @@ def sqrt(number)
   e = 0.0001
   
   while x - y > e
+    x = (x + y) / 2
     
