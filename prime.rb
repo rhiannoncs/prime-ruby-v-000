@@ -3,4 +3,5 @@ def prime?(integer)
   while x < 
 end
 
-def sqrt
+def sqrt(number)
+  
