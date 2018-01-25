@@ -4,10 +4,11 @@ def prime?(integer) #algorithm adapted from https://math.stackexchange.com/quest
     return false
   else 
     while x <= sqrt(integer) + 1
-      integer % x != 0 && integer != x
+      return false if integer % x == 0 && integer != x
       x += 1
     end
   end
+  true
 end
 
 def sqrt(number) #adapted from https://rubyalgo.github.io/algorithms/mathematics/babylonian-sqrt/
