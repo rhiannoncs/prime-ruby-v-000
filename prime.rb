@@ -3,7 +3,7 @@ def prime?(integer)
   while x < 
 end
 
-def sqrt(number)
+def sqrt(number) 
   x = number
   y = 1.0
   e = 0.0001
@@ -12,4 +12,5 @@ def sqrt(number)
     x = (x + y) / 2
     y = number / x
   end
-  
+  x
+end
