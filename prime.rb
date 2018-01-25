@@ -22,3 +22,5 @@ def sqrt(number) #adapted from https://rubyalgo.github.io/algorithms/mathematics
   end
   x
 end
+
+prime?(100)
