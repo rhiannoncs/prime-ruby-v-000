@@ -1,7 +1,7 @@
 def prime?(integer)
   x = 2
   while x < sqrt(integer)
-     
+    return false if (integer / x)   
 end
 
 def sqrt(number) #adapted from https://rubyalgo.github.io/algorithms/mathematics/babylonian-sqrt/
