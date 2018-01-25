@@ -4,7 +4,7 @@ def prime?(integer)
     return false
   else 
     while x <= sqrt(integer) + 1
-      return false if integer % x == 0
+      return false if integer % x == 0 && integer != x
       x += 1
     end
   end
