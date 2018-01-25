@@ -3,7 +3,7 @@ def prime?(integer)
   while x < 
 end
 
-def sqrt(number) #adapted from 
+def sqrt(number) #adapted from https://rubyalgo.github.io/algorithms/mathematics/babylonian-sqrt/
   x = number
   y = 1.0
   e = 0.0001
