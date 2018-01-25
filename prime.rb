@@ -1,6 +1,6 @@
 def prime?(integer)
   x = 1
-  if integer < 0
+  if integer <= 0
     return false
   else 
     while x <= sqrt(integer) + 1
