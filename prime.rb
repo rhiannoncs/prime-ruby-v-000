@@ -2,9 +2,11 @@ def prime?(integer)
   x = 2
   if integer < 0
     return false
-  else while x <= sqrt(integer) + 1
-    return false if integer % x == 0
-    x += 1
+  else 
+    while x <= sqrt(integer) + 1
+      return false if integer % x == 0
+      x += 1
+    end
   end
   true
 end
