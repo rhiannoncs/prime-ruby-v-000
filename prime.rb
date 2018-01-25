@@ -10,4 +10,4 @@ def sqrt(number)
   
   while x - y > e
     x = (x + y) / 2
-    
+    y = number / x
